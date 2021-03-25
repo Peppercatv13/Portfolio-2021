@@ -1,0 +1,53 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poiret One', cursive;
+}
+
+h1, h3, h5 {
+    color: hotpink;
+    font-weight: 800;
+}
+
+.logo {
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    max-height: 8vh;
+    background-color: lavenderblush
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    text-transform: uppercase;
+    word-spacing: 3.75px;
+    border-left: transparent;
+    border-top: transparent;
+    
+}
+
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 3.75px;
+    transition: 1.3s
+}
+    .nav-link:hover {
+        
+        text-decoration: double;
+        letter-spacing: 7px;
+        transition: ease 1.3s;
+    }
